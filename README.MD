@@ -8,5 +8,5 @@ $ python -c 'event="{ 'key': 'value' }";context="{'key': 'value'}";from <name of
 ```
 #### Example
 ```
-'event="{ 'who': 'StepF' }";context="{'something': 'another'}";from learnStepFunctions import lambda_handler;print(lambda_handler(event,context))'
+python -c 'event="{ 'who': 'StepF' }";context="{'something': 'another'}";from learnStepFunctions import lambda_handler;print(lambda_handler(event,context))'
 ```
